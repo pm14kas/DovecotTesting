@@ -1,0 +1,96 @@
+X-Apparently-To: data@removed.com; Wed, 25 Mar 2020 17:56:15 +0000
+Return-Path: <>
+Authentication-Results: mta4273.mail.bf1.yahoo.com; 
+ dkim=pass (ok) header.i=@yahoo.com header.s=bounce;
+ spf=none smtp.mailfrom=@sonic308-18.consmr.mail.ir2.yahoo.com;
+ dmarc=pass(p=reject sp=NULL dis=none) header.from=yahoo.com;
+Received-SPF: none (domain of sonic308-18.consmr.mail.ir2.yahoo.com does not designate permitted sender hosts)
+X-YMailISG: VSDRqEoWLDs5HGF_4ZjV3JkP3MxeNivLXilnWv_cvXzD6_BL
+ 8Y0.Z7p9Lcsu74LAygMkBp1.6rjqhDuL_.fT6CJN6.y71rNV8Mx19uTqAzM3
+ QRrWB2ByhmU6E472ofiJxL5CVXN4bk.7do5YE5sF6xT360skyXh_W75g4FzV
+ Tf4j6b02rY09sYfwO3pahSJHtIpMqPaovOUcMGHGepiZPYOYyD.iR8HboQ0f
+ osXxtANIcrnDA_9Pe4BoQfHgGpo52yuGstN2XqODX5RSY6cX6yQ2E1mkIlc7
+ 3BY9yH4xXdvITK3YPpGXIgojVI60.DoqTDYKfmHirwZeXfDQMW6bl7oswdkH
+ bi_J12xpNxfOoN6g_hQQvw05kk7FeMuyArQu1GITjoa0DIPkrthEDzodZNO_
+ 4f6V85C6V5VMAZaHLLfsh6OKShQqiCCnJ6G4ygLMus4d1okqHKos7ApTZJiL
+ vYLrgVU8B81ysB7y6abWI04v4CXeV0CjTXx3DXBsikGRgB0EYC5HDSD9TTXk
+ qILN2B5smhWqBu2xGvbpkLLvN3jkhL6.W2vHdbKMauDdY..cMgMMp9b1BCd7
+ Ly8cNnAyq6IJzoJmRYkdVQ08bWWgP1te4ikZRkL7HSoTvgtRJVg8gg6KOXvQ
+ uMmnmffMeGp6o3Va1u20UH.J5Ajn2CT2jw9yogeqex12yhK7yGgKB.MWSZlh
+ GaXjBgTycLLXcjOC8UobpT0aLzYxGfW3LKwBo4vxbMCP_r1KNowfFA3fbeJj
+ HuHoncoc3l1cSYSLOfcHOJCZ39xbJSQwdT1P89EWdeX4Ev5EM7tMvtDyDEl9
+ b.N09EtG.smAvk5bbvV7.roNgIYxCYikSTDphYMKtYmo_0sQ01uoBvl3oiUU
+ 4sedw3Qsq9.IQcxYAQbXE0_Htn2hej61wtjtBIFyWU5G5z9Yqfoi3yaeBqXH
+ d0MnggpFdbOUmNlJHq4UJKdAU7P1X3NX8mPUD8UWKA6_AMfXS_nix3cjWb.S
+ 8V85hmMRYO3aavG9_KV1jW5d8bC21lhgsr_XWnXk7aHESh1RIvuE7Xu93Wuq
+ .nxnUt9N685l_bRTSf1otNozd4rJyI30gueNG4Gunc6KOuKgW_yMjnfgWzDl
+ mqageDTyKCxiuH_9WS7BwBDoRWT0nt40idAiVM4baDhpUo7snogFfElaotsR
+ x2Bx.ZO1CGEBPgk.PU6efhGyHdlPLSuABukNkYdHpDa7xM0r5hgYQAARxfcv
+ 7CxFoiC0EgeAmB7mzt6FBdGyP2leymZETmndh48a6ZztTEya10.xbVnWRV.j
+ blWmDons5DVWyrSuVeYz1Q--
+X-Originating-IP: [77.238.178.146]
+Received: from 10.197.32.200  (EHLO sonic308-18.consmr.mail.ir2.yahoo.com) (77.238.178.146)
+  by mta4273.mail.bf1.yahoo.com with SMTPS; Wed, 25 Mar 2020 17:56:14 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=bounce; t=1585158973; bh=mImQZTgcymtR3b8lLypZw8fabSu2qNawQBOmT7SDMXw=; h=Date:From:To:Subject:From:Subject; b=AiqKsQeCvlMlAwhhH6EWgSaQxe9jRCVa60ym6syeBXyJo4ASQgIG8z5LchqOsG68GxlXWW9NdbjUzVen9JT6lXkPZFp2JGsRo6iQdWZOcoJ1X83lGm57IC8L4bKbp0lDxAhMY3yOonHW+0zr318DoKo0IcMRbYQsRFYZySaaSV0=
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic308.consmr.mail.ir2.yahoo.com with HTTP; Wed, 25 Mar 2020 17:56:13 +0000
+Date: Wed, 25 Mar 2020 17:56:13 +0000
+From: MAILER-DAEMON@yahoo.com
+To: data@removed.com
+Message-ID: <1717581991.554173.1585158973745@sonic308.consmr.mail.ir2.yahoo.com>
+Subject: Failure Notice
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-Length: 3382
+
+Sorry, we were unable to deliver your message to the following address.
+
+<faulty@email.com>:
+554: delivery error: dd Not a valid recipient - atlas217.free.mail.gq1.yahoo.com
+
+--- Below this line is a copy of the message.
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1585158969; bh=2JqNA/FtypGxP92mkZREH+m22Jgt0AgzQI/Kxl+Nzvg=; h=Date:From:To:Subject:References:From:Subject; b=eOptwzr+rQp+Vk3WEEFsouGVA3GX+FUHCX6WIjK7tOg5YQ1V/ewo18xbtTo55NkQTazidOzLUqTwrIcf3qlBTHY2AC8o/X/WUT3fOAktqjHMw7UJcAFuXqwc6Kupo8yZcMgA3lXFDsZCR6jryr7mVHNIZOK4Lb7eCkO3UwgY3NcAhaTne1Iyxqp39jb7mquvIQ/h2OR8fdXhR6DjK8o+ejJFcq2Q3FyH+8rUQKRGQo0JCr0HrEad/p4nj7bfWFfhjM7ifShhGfyWpk69M7ifyLvL1CebgfKl4ufTBB3+l1Re65DeBGFme1ykAZ92ispsOY+VWMRx2uyyAZF3OUH35g==
+X-YMail-OSG: BGAUsqwVM1n635WzYu9WtjboYnYj3V_wRFo5Y64liBT5QC0QdMSJE0BSjskZslh
+ 3t5144k2gW65CRwRn5yBgbsZXNvwKtUMRZCP__Dhs20HK1xWELqvJ5H1IEeT9zCqSTguInvD4ghn
+ tW4waJk_RDvsqwr.2zY0cW78ds1TZugFIvlmUZltq9e2YLqtgCRTloRP4IBgnyCdth_7ueGDVWi.
+ kfBDBbaYxBG20wI1aUpg8uBTfgLJ_KPFLYR6giDu3DXCr3uV0h2XxKefCd4ZKQM43bWpezHZ44VR
+ VqbD6ssJSc8osNasbhBP_GIdZRWe3NXSyboeAfqBBxIQu3rgO_MykaiA96BBakilgCB5T6Tdmt8T
+ 83c7AeGycSR_1LPoqqVkNFLFw7Xfx6gFl7CrFNsKpAEN_MA3MZJ_5MQifZgpGb6k51uL.VuTYiSm
+ rMaXLcmi2_bJ43VY7NinI9QYDSuoDBug.BrZDwgscgj1PNoP.3ocC4K9XTBGoH395GzEWtE2a4EQ
+ AhVh8gABv5gsz9wnwRuqTzMZglIDZcfxAZvcrOOn1RzqfgLSFPFP5cd75fPU6WWKCQt02s_LWrBu
+ pcIGS0gBu1vSxoUKtHGubWia_sXHb33Qb_FMrz_uftY5PnguUeGJEcsQdcNx6ONOBvDP8RBTUMiz
+ 05lc8YVQdKUR4_DUvySDgcl4p0t5HsxFy4hVuNTeet7PzDu0HRahmMt1._1Dhw2n0XBnWaK.15Qz
+ XPYOXo4a6RGEVgRntGq9l5VghlEIuM44aATrUagpfpVc6DcqLjzPmJfsm.zyvjEEmDNx18kohHPj
+ m4x9.0xQbITKC9hYXWHFL9o4zBe8LcMDNNN1l2wqr1PX4wgW_bcxjQiAL5qJunA_tkZaY0r0Uss4
+ 1W.GldOnb8LyVW4WJpuhCMVmqCSKuIg3RYessiev2XQL3m0b6O7G5_6gsKZ2o1DgHji0wzaao74_
+ yL2IL2TqhsuT_esgADnvHsdi2FfgVXWp.e.eLUBSNB1BNh9x7YIt_uUmeIwPCg4Nl374nuohTBzC
+ tNjezN61sQstgo8hqqEIcEIYg1qtZhGi9mmXVjhRQ4jefVaF_SAEL5xE.zdi57TrBtbbBAPOzaxp
+ iKqovKGJ8xtWIXjivMriB.driC0vUQyCecC17a8FOJkEyFyeN7MUv4OhVOrVIFTV1T9b1Pm0O.04
+ 0.fFBRtXD5u5Pj3HAmrWBZmcu3vl7f7KE.mkBGlE4n4CuCuylTI2ctPRsbZ7a.VI97De0pM0Es2D
+ HWZtXYUheBBwLk36U7Y.1nnRMIVAV1E9S
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic308.consmr.mail.ir2.yahoo.com with HTTP; Wed, 25 Mar 2020 17:56:09 +0000
+Date: Wed, 25 Mar 2020 17:56:08 +0000 (UTC)
+From: Andrey Volkov <data@removed.com>
+To: 
+	"faulty@email.com" <faulty@email.com>
+Message-ID: <1011513514.4070141.1585158968382@mail.yahoo.com>
+Subject: test
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_4070140_1001317454.1585158968380"
+References: <1011513514.4070141.1585158968382.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.15518 YMailNorrin Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36 OPR/67.0.3575.53
+Content-Length: 492
+
+------=_Part_4070140_1001317454.1585158968380
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+test
+------=_Part_4070140_1001317454.1585158968380
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html><head></head><body><div class="yahoo-style-wrap" style="font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:16px;"><div dir="ltr" data-setdir="false">test</div></div></body></html>
+------=_Part_4070140_1001317454.1585158968380--

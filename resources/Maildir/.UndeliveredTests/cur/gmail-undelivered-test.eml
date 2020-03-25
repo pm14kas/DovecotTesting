@@ -1,0 +1,245 @@
+Delivered-To: data@removed.com
+Received: by 2002:ac8:6783:0:0:0:0:0 with SMTP id b3csp803528qtp;
+        Wed, 25 Mar 2020 08:43:55 -0700 (PDT)
+X-Received: by 2002:a37:9f58:: with SMTP id i85mr3440394qke.196.1585151035450;
+        Wed, 25 Mar 2020 08:43:55 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1585151035; cv=none;
+        d=google.com; s=arc-20160816;
+        b=EcepsEhxqsoT5OHg4KmXOtYpaM1VlcjVM0Kz3bc/vwT7Ny7vIs1a5s9OFhynDE8c8i
+         duNhA4M8t5kWdsilqmlXq7TKRiT0gYkzaN3NMvJ3R5oHbpe0zAPPkBIFylsaQ3s+UtEB
+         j3PJFmM10e9I6218VsGCYuoB93FZQTL6PVRRROH6y32VZq/xkHs5nIiqKNP7xDq/b9Qi
+         KWx6qOPe3ORV03ZAkya2bbBzxL09aHdzMPzzx4fPRiyJDGJN1dPrNTkxcexFP9WZ6ERO
+         TspZB9hkundTpYsxy1H9ABblfrmTemo+TPfUkWzn46o/Oftfo+trID+EbkUU7ymwSwaa
+         sv6w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=in-reply-to:references:subject:from:date:message-id:auto-submitted
+         :to:dkim-signature;
+        bh=ts5Gn1qwY7x8SFjfXIZa9oy7HsQ606ipICnld7pYD1E=;
+        b=T00d+32SZlk1ar1TmtZ7jpJcAMEYxWFTKo4koBEmjXnEATJaNMSL53SxP8prr934HE
+         L22gH9nWOI/ld3wFvKRhgoLGaU6BHnTk3aV5tyZbb004Kj3gPsS3ivSWOYdl8lt6QQuB
+         OzjAPnbNPQj5n6eD0Lx44Z2HcSiw76Qj93Vd15Bhcp4LD6Kz+HuHGwLpVYdRPVggh9Lu
+         tkKZlfMxxnUPwbDiF9BOZm3r1mD749wrDrAZ9Andj7/V857rzUOSvWyuOw3DajwY7dob
+         A6G4uxNXQUpMuRx5QLCDyuK90VyAXgLVICDynaUeUV/S8ICw8fxOWiuEKYj0C9LcRTFW
+         pOgQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@googlemail.com header.s=20161025 header.b=PQ367Dg0;
+       spf=pass (google.com: best guess record for domain of postmaster@mail-sor-f69.google.com designates 209.85.220.69 as permitted sender) smtp.helo=mail-sor-f69.google.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=googlemail.com
+Return-Path: <>
+Received: from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])
+        by mx.google.com with SMTPS id x12sor24758149qvt.70.2020.03.25.08.43.55
+        for <unbelievablemail@gmail.com>
+        (Google Transport Security);
+        Wed, 25 Mar 2020 08:43:55 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of postmaster@mail-sor-f69.google.com designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@googlemail.com header.s=20161025 header.b=PQ367Dg0;
+       spf=pass (google.com: best guess record for domain of postmaster@mail-sor-f69.google.com designates 209.85.220.69 as permitted sender) smtp.helo=mail-sor-f69.google.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=googlemail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlemail.com; s=20161025;
+        h=to:auto-submitted:message-id:date:from:subject:references
+         :in-reply-to;
+        bh=ts5Gn1qwY7x8SFjfXIZa9oy7HsQ606ipICnld7pYD1E=;
+        b=PQ367Dg0bzc3NPi6X7MjEXb1od2LpaXA+wQgT/oFtp2In6IKC+RJzgSF0fXukUDyWP
+         CxVXb9m6Kj8012mHv1w6ab+IU82eEKoPFjwGNZhqio0XTxrLB321xL1nsOiq+jcr75QN
+         e4eCV4FqrzM6KAHiJJuSf2tiM4TZ40PPUswVSCxVm5ORU7EOWh3nzKm0m2KgTApuz9/h
+         oHodBG/nymKbGCCSJCSHm8y2nkH/PB7cffnSrnHBdeKMKXW27L7mv5chE+k/lTrMXSY1
+         hv7RYZ9JShvV6tyfhiMBuSkF83+76C3lJa9W0pYvooyVNipw3Rl4u6wP+RWS8tSEiIt6
+         tagw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:to:auto-submitted:message-id:date:from:subject
+         :references:in-reply-to;
+        bh=ts5Gn1qwY7x8SFjfXIZa9oy7HsQ606ipICnld7pYD1E=;
+        b=KMBJqMQ2be6mZRIdOW5kNNQfhfv7vdn68NO64LvBv6s3XJfinmTSB8FPYkmeqs4RcQ
+         IgfI5fCFj3YhFVh3hgvPxT8OAvznZ02JV5MohfT70xUHNDOdDSWLVcTMY5KedutdxGPh
+         rVkcp79/CVAkOb5Zqcn/rI69vy8fSFhVd1QCXHDR/+bUYlqAIolL27IQk84+1dMk4a6h
+         xirPiwWu4TBc8XytMCpcY7sUe9Qfy6X+iDffj/KT7DTF84hX2YpGBNsriimXRXWLQFSC
+         D4HXRhyiF7f2KF5hlEQjM4cd1W7RnJ0Z1zLwsW+OoE2j87TNWnRfQpwRfIcnNAI0i153
+         fTnA==
+X-Gm-Message-State: ANhLgQ3l8urzH5UGkQvqxSwGW9b+b8FEKvjP9UI2xxnn+3mGlvqTne5/
+	sOiw92/RprGFhWdsdD+6iMu7d8sPfuq1K67fMFaOUQ==
+X-Google-Smtp-Source: ADFU+vuwSrivAEmcqpBKYmi83EYtdXvE0+XR77JOs/KNDva2cvaZeVfc8C8amgaeoSQg2ut2C/Li9ZSjVpxUVeKHS6oTigxN6s8io+A=
+X-Received: by 2002:a0c:b549:: with SMTP id w9mr1669137qvd.200.1585151035291;
+        Wed, 25 Mar 2020 08:43:55 -0700 (PDT)
+Content-Type: multipart/report; boundary="0000000000005faacf05a1afbca4"; report-type=delivery-status
+To: unbelievablemail@gmail.com
+Received: by 2002:a0c:b549:: with SMTP id w9mr1768490qvd.200; Wed, 25 Mar 2020
+ 08:43:55 -0700 (PDT)
+Return-Path: <>
+Auto-Submitted: auto-replied
+Message-ID: <5e7b7c3b.1c69fb81.9342.7acc.GMR@mx.google.com>
+Date: Wed, 25 Mar 2020 08:43:55 -0700 (PDT)
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+Subject: Delivery Status Notification (Failure)
+References: <CAPSioMXuCH5Y2FDnrnPQYEDM0EUZdVWg0NRV1T9ZjZq29csUKQ@mail.gmail.com>
+In-Reply-To: <CAPSioMXuCH5Y2FDnrnPQYEDM0EUZdVWg0NRV1T9ZjZq29csUKQ@mail.gmail.com>
+X-Failed-Recipients: faulty@email.com
+
+--0000000000005faacf05a1afbca4
+Content-Type: multipart/related; boundary="0000000000005fb2c805a1afbca8"
+
+--0000000000005fb2c805a1afbca8
+Content-Type: multipart/alternative; boundary="0000000000005fb2d505a1afbca9"
+
+--0000000000005fb2d505a1afbca9
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+CioqINCQ0LTRgNC10YEg0L3QtSDQvdCw0LnQtNC10L0gKioKCtCh0L7QvtCx0YnQtdC90LjQtSDQ
+vdC1INC00L7RgdGC0LDQstC70LXQvdC+LCDRgtCw0Log0LrQsNC6INCw0LTRgNC10YEgMTIxMWFu
+ZHJleXZvbGtvdjA3MDYyMDAxMjAwMUByYW1ibGVyLnJ1INC90LUg0L3QsNC50LTQtdC9INC40LvQ
+uCDQvdC1INC/0YDQuNC90LjQvNCw0LXRgiDQstGF0L7QtNGP0YnQuNC1INC/0LjRgdGM0LzQsC4K
+CgoK0J7RgtCy0LXRgiDRg9C00LDQu9C10L3QvdC+0LPQviDRgdC10YDQstC10YDQsDoKNTQwIDUu
+Ny4xIDwxMjExYW5kcmV5dm9sa292MDcwNjIwMDEyMDAxQHJhbWJsZXIucnU+OiByZWNpcGllbnQg
+YWRkcmVzcyByZWplY3RlZDogSW5hY3RpdmUK
+--0000000000005fb2d505a1afbca9
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+<html>
+<head>
+<style>
+* {
+font-family:Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+</style>
+</head>
+<body>
+<table cellpadding=3D"0" cellspacing=3D"0" class=3D"email-wrapper" style=3D=
+"padding-top:32px;background-color:#ffffff;"><tbody>
+<tr><td>
+<table cellpadding=3D0 cellspacing=3D0><tbody>
+<tr><td style=3D"max-width:560px;padding:24px 24px 32px;background-color:#f=
+afafa;border:1px solid #e0e0e0;border-radius:2px">
+<img style=3D"padding:0 24px 16px 0;float:left" width=3D72 height=3D72 alt=
+=3D"=D0=97=D0=BD=D0=B0=D1=87=D0=BE=D0=BA =D0=BE=D1=88=D0=B8=D0=B1=D0=BA=D0=
+=B8" src=3D"cid:icon.png">
+<table style=3D"min-width:272px;padding-top:8px"><tbody>
+<tr><td><h2 style=3D"font-size:20px;color:#212121;font-weight:bold;margin:0=
+">
+=D0=90=D0=B4=D1=80=D0=B5=D1=81 =D0=BD=D0=B5 =D0=BD=D0=B0=D0=B9=D0=B4=D0=B5=
+=D0=BD
+</h2></td></tr>
+<tr><td style=3D"padding-top:20px;color:#757575;font-size:16px;font-weight:=
+normal;text-align:left">
+=D0=A1=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BD=D0=B5 =D0=B4=
+=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE, =D1=82=D0=B0=D0=BA =
+=D0=BA=D0=B0=D0=BA =D0=B0=D0=B4=D1=80=D0=B5=D1=81 <a style=3D'color:#212121=
+;text-decoration:none'><b>faulty@email.com</b></a> =
+=D0=BD=D0=B5 =D0=BD=D0=B0=D0=B9=D0=B4=D0=B5=D0=BD =D0=B8=D0=BB=D0=B8 =D0=BD=
+=D0=B5 =D0=BF=D1=80=D0=B8=D0=BD=D0=B8=D0=BC=D0=B0=D0=B5=D1=82 =D0=B2=D1=85=
+=D0=BE=D0=B4=D1=8F=D1=89=D0=B8=D0=B5 =D0=BF=D0=B8=D1=81=D1=8C=D0=BC=D0=B0.
+</td></tr>
+</tbody></table>
+</td></tr>
+</tbody></table>
+</td></tr>
+<tr style=3D"border:none;background-color:#fff;font-size:12.8px;width:90%">
+<td align=3D"left" style=3D"padding:48px 10px">
+=D0=9E=D1=82=D0=B2=D0=B5=D1=82 =D1=83=D0=B4=D0=B0=D0=BB=D0=B5=D0=BD=D0=BD=
+=D0=BE=D0=B3=D0=BE =D1=81=D0=B5=D1=80=D0=B2=D0=B5=D1=80=D0=B0:<br/>
+<p style=3D"font-family:monospace">
+540 5.7.1 &lt;faulty@email.com&gt;: recipient addres=
+s rejected: Inactive
+</p>
+</td>
+</tr>
+</tbody></table>
+</body>
+</html>
+
+--0000000000005fb2d505a1afbca9--
+--0000000000005fb2c805a1afbca8
+Content-Type: image/png; name="icon.png"
+Content-Disposition: attachment; filename="icon.png"
+Content-Transfer-Encoding: base64
+Content-ID: <icon.png>
+
+iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAACXBIWXMAABYlAAAWJQFJUiTwAAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABTdJREFUeNrsnD9sFEcUh5+PRMqZ
+yA0SPhAUQAQFUkyTgiBASARo6QApqVIkfdxGFJFSgGhJAUIiBaQB0ZIOKVCkwUgURjIg2fxL4kS+
+YDvkbC/388bi8N16Z4/d7J/5PsniuD3fyePP772ZeTsDQRAYQL/UGAJAIEAgQCBAIAAEAgQCBAIE
+AkAgyJT3Mv+Eq7vYK8mTE+MDRCAghQECAeRQA5V2ZOpmg5vDx3NPzRbmGRMEcmTrEbNNB8zWfRD+
+f/Efs2e3zCZvMjaksBg27TfbcuSNPEKP9ZyuAQKtHX2O9ncNgWC57umMPKvRNb0GEKgnLoUyxTQC
+rcns0/6uIRAs8/hGf9cQCJZpTpjdO2f25/03z+mxntM1eLtsZAgiUtX4JcaBCAQIBAgECARQ8CJa
+G5jab4J4pm4WZmO3OALVh802fIwcLkyPkcKAGggAgQCBAIEAgQCBABAIEAjKA/1AnahhbO5FdOOY
+VsrrDbPBYcYKgf5D2wLaV3p+22xh1u17tO3S+DTcvxvagUDeivPgx/a/95J/73w7Sj26Hn4pKo2M
+ehuV/KyBJM6d0f7k6RKx/R63vvL2tmf/ItDdM2ZTP6f7nkp9Y2fDx1v9akmpIU+KSCLVUghUQfSL
+zVKeTklbLxGoctw/nzC5rw8L5KRNbkpnKq6pgSqEClzNnFzY+XnYWrt6VpVk1vbwWvg+RKCKMOUw
+Q1LEOXA+/MX3mpJvGDHb265xtnzmFoUK1HaKQGlMtePYM+q2KKjXuaS1NJYIEKgI8jhEgqHt4cqy
+Ky53j3hyHz2bqSLp2o2LbJ7MxKovkGqXteoWpaOk96O9/yF/dF7NwlS36AuIQIBA5celQK4PIxBE
+4LLzrtoLgaALdSy6CJRkWQCBPGLsTHznomZ9nszUECgJ2ml3WWHe+QVFNPSQx6UdZNtxr9pbEShN
+eTTz8mQXHoHSlke7+Z+c9m6VGoHSkEfs/trLW3wQKApN1V3lGfnGu2Z6BFoLtYCs3GWBPAiUCLVh
+/HoaeRCoT9R873KLM/IgUBfapnCpe5AHgXry4pf412ihEHkQqCdxd5VqrcezhUIESsJMTJ+Pdthp
+Z0WgyNlXXPHc2Mc4IVAELl2Gnh8mhUDvCkfbIVAkcbf/aOoO3fMKhqAD3frTa4quwpn0hUDOkQhI
+YYBAgECAQAAU0QlYObl+5Ug8NcprZkZxjUCxRPVA6zmtEXHCBykskrhjgHXN09PoEcgFl4M4H11j
+nBAoApcj6ZoPGScEAgTKApcDoTw5sgWB+sGlz1n90IBAPdE6j1o21PfcC11jLagL1oFWRyGlKU3p
+OxcSJQ7NZAjkhHp/uG2HFAYIBAgECASAQIBAgECAQAAIBOkxEARBtp9wdVfAMOfIifEBIhCQwgCB
+ABAI0oV2jhxZ+nfBatuPZfgBCy0Eqqo8c01b+uu51XZvzOgDWoHNTGR+pCwpLEd5svuAZXlO2uEr
+PyEQ8hRWHgRCHmqg0sjTnLalv6crJQ8C/U8stqNO0I4+VZOHFIY8COS1PGL2ybd5yUMKK7s8zYmL
+dujyd3n+nESgcsvzZd4/KwIhDwIhT35QA6UyE1qyxZnfvJMHgdKS549JC1qvvJOHFIY8CFR5eV5O
+XimqPAhUdHnmfx+zgxdOFXkoqIGKKs/cswnb/8Oeog8HEai48nxUhiFBIORBIOShBioskkbySCLk
+IQIhDwIhj28p7FApR6b1qlEbHGpkO/rr6215vi/zH1r2x7tApSGFAQIBAgECAQIBIBAgECAQIBBA
+LK8FGADCTxYrr+EVJgAAAABJRU5ErkJggg==
+--0000000000005fb2c805a1afbca8--
+--0000000000005faacf05a1afbca4
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; googlemail.com
+Arrival-Date: Wed, 25 Mar 2020 08:43:52 -0700 (PDT)
+X-Original-Message-ID: <CAPSioMXuCH5Y2FDnrnPQYEDM0EUZdVWg0NRV1T9ZjZq29csUKQ@mail.gmail.com>
+
+Final-Recipient: rfc822; faulty@email.com
+Action: failed
+Status: 5.7.1
+Remote-MTA: dns; inmx.rambler.ru. (81.19.78.67, the server for the domain rambler.ru.)
+Diagnostic-Code: smtp; 540 5.7.1 <faulty@email.com>: recipient address rejected: Inactive
+Last-Attempt-Date: Wed, 25 Mar 2020 08:43:55 -0700 (PDT)
+
+--0000000000005faacf05a1afbca4
+Content-Type: message/rfc822
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to
+         :content-transfer-encoding;
+        bh=p5SSxiUAJtxoF0v6JBJuHBYZLttCq6FbcfvnocBOgMA=;
+        b=dLgYwWZKk4r20zTz2CBVk8jSvmVsOUDKCTvNvKrUsdBsNwt78czzEnpDSC1pE7q+J/
+         zrgWfVqKl/SNMpJtW1GprMCpF9s16z8kPV2KAv2ROvKCcoYGf1Ra0fIcD4W6vc9CuD0S
+         RQHR4d1kFCVosAaIyMNm4fkfkx+tOZfg3nO4hTx0QbVKHqzkix7FUyMoqbUI+lxdWzDJ
+         oM9eHuwNMfputbM/UUxaO0ZLLiEGG23wE+U8iNc7bUuyTMojiffpkme7W5gvLCbwmCx1
+         mtov2gscpd/iUvFlsDTEnQ6ytWjjmSRQn21ku0WtWDd8y9J60HxYvxjOkk00yRUauDOJ
+         EzzA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to
+         :content-transfer-encoding;
+        bh=p5SSxiUAJtxoF0v6JBJuHBYZLttCq6FbcfvnocBOgMA=;
+        b=uIolKIbVvTc53h7WoWR2Epmybp9fmDHUcA/9YO2/ravNfXV3lX8G3U9dX1RyDmWv99
+         o2fLZb3gsWFIc+lD2h9swU4shyIA0aE1UGGfVITXsZIHlwBzQ7lFiVrW5I4c/OWfjmWJ
+         vHwvPiqc/6+XgZaKGNGQlxXCMuhgpgTkWEsxkwJGgPcEU0Hd5ENhj21N9kcV/TZazcxx
+         VkRysRk9NVFv/0dF9J3/eHe9i8yHL0Npqajq2Zc5Wi4+hn1S5QALwiB3l1w7EGSQ9UEG
+         ucLOK5SKlo164j2k49+MRKWqT7gq4UPRjzTszFXRP6ubXXStTrXWBmYV8I2HfG9UNn9D
+         yl6w==
+X-Gm-Message-State: ANhLgQ3TfT2wg7FdXPv+oebofxyFSQzou7EZ3yf5XvXGSCcwZydyspWN
+	pS/R/ne7/OkCpi0J1+FNQqpgV5I2MutLMoLYk8jASmSEljc=
+X-Google-Smtp-Source: ADFU+vvKyywlbo4m5GgPUAsiz+lJcWMlLEyep1B4KcH7CLRhCWyu0AfBQkSFsiW6PgfirqXfqZwIEDHc92J0xd0EFok=
+X-Received: by 2002:a0c:b549:: with SMTP id w9mr1668963qvd.200.1585151032832;
+ Wed, 25 Mar 2020 08:43:52 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 2002:ac8:60d3:0:0:0:0:0 with HTTP; Wed, 25 Mar 2020 08:43:52
+ -0700 (PDT)
+From: John Doe <data@removed.com>
+Date: Wed, 25 Mar 2020 18:43:52 +0300
+Message-ID: <CAPSioMXuCH5Y2FDnrnPQYEDM0EUZdVWg0NRV1T9ZjZq29csUKQ@mail.gmail.com>
+Subject: test
+To: faulty@email.com
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+0L7RgtC70LjRh9C90L7QtSDQstGL0YHRgtGD0L/Qu9C10L3QuNC1DQo=
+
+--0000000000005faacf05a1afbca4--

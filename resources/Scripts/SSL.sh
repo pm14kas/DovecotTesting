@@ -1,6 +1,6 @@
 #!/bin/bash
 
-stop dovecot
+systemctl stop dovecot
 
 STARTPATH=`pwd`
 
@@ -36,4 +36,4 @@ chown root $SSL_KEY || true
 chgrp dovecot $SSL_KEY || true
 chmod 0600 $SSL_KEY || true
 
-start dovecot
+systemctl start dovecot

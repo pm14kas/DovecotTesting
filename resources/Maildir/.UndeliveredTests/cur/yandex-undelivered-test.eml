@@ -1,0 +1,95 @@
+Received: from mxback8j.mail.yandex.net (localhost [127.0.0.1])
+	by mxback8j.mail.yandex.net with LMTP id 1E1EAN5bHF-ARjRDCrI
+	for <kozlov_a@intaro.email>; Mon, 16 Mar 2020 21:31:36 +0300
+Received: by mxback8j.mail.yandex.net (Yandex)
+	id 3CE0D89751; Mon, 16 Mar 2020 21:31:36 +0300 (MSK)
+Date: Mon, 16 Mar 2020 21:31:36 +0300 (MSK)
+From: mailer-daemon@yandex.ru
+Subject: Undelivered Mail Returned to Sender
+To: kozlov_a@intaro.email
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="1263889750.1584383496/mxback8j.mail.yandex.net"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20200316183136.3CE0D89751@mxback8j.mail.yandex.net>
+X-Yandex-Forward: 7c052142e0e101ec78bc012e0d0f6b2e
+
+This is a MIME-encapsulated message.
+
+--1263889750.1584383496/mxback8j.mail.yandex.net
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host yandex.ru.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+You can find the the possible reasons of the undelivered message letter here:
+https://yandex.com/support/mail-new/wizard/zout_send/not-got-report-yes-yandex.html
+
+Please, do not reply to this message.
+
+
+<asdsafdfsdafgvhertghjkbu@intaro.email>: host 127.0.0.1[127.0.0.1] said: 554
+    5.1.1 Unknown user; SwjJlNMfDE-or59Kwr7 (in reply to end of DATA command)
+
+--1263889750.1584383496/mxback8j.mail.yandex.net
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+Content-Transfer-Encoding: 8bit
+
+Reporting-MTA: dns; mxback8j.mail.yandex.net
+X-Yandex-Queue-ID: 1263889750
+X-Yandex-Sender: rfc822; kozlov_a@intaro.email
+Arrival-Date: Mon, 16 Mar 2020 21:31:36 +0300 (MSK)
+
+Final-Recipient: rfc822; asdsafdfsdafgvhertghjkbu@intaro.email
+Original-Recipient: rfc822;asdsafdfsdafgvhertghjkbu@intaro.email
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; 127.0.0.1
+Diagnostic-Code: smtp; 554 5.1.1 Unknown user; SwjJlNMfDE-or59Kwr7
+
+Help: Please visit https://yandex.ru/support/mail-new/wizard/zout_send/not-got-report-yes-other/no-such-user.html
+
+--1263889750.1584383496/mxback8j.mail.yandex.net
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <kozlov_a@intaro.email>
+Received: from mxback8j.mail.yandex.net (localhost.localdomain [127.0.0.1])
+	by mxback8j.mail.yandex.net (Yandex) with ESMTP id 1263889750;
+	Mon, 16 Mar 2020 21:31:36 +0300 (MSK)
+X-Yandex-Internal: 1
+Received: from localhost (localhost [::1])
+	by mxback8j.mail.yandex.net (mxback/Yandex) with ESMTP id lcs5YDRpQo-VZMuFY4d;
+	Mon, 16 Mar 2020 21:31:35 +0300
+X-Yandex-Front: mxback8j.mail.yandex.net
+X-Yandex-TimeMark: 1584383495.669
+X-Yandex-MXCode: GRE
+X-Yandex-Suid-Status: 1 0,1 0
+X-Yandex-Spam: 1
+X-Yandex-Envelope: aGVsbz1teGJhY2s4ai5tYWlsLnlhbmRleC5uZXQKbWFpbF9mcm9tPWtvemxvdl9hQGludGFyby5lbWFpbApyY3B0X3RvPWFzZHNhZmRmc2RhZmd2aGVydGdoamtidUBpbnRhcm8uZW1haWwKcmVtb3RlX2hvc3Q9bG9jYWxob3N0CnJlbW90ZV9pcD06OjEK
+X-Yandex-Hint: bGFiZWw9U3lzdE1ldGthU086cGVvcGxlCmxhYmVsPVN5c3RNZXRrYVNPOnRydXN0XzUKc2Vzc2lvbl9pZD1sY3M1WURScFFvLVZaTXVGWTRkCg==
+X-Yandex-Hint: aXBmcm9tPTEwOS4xNzIuNDYuNzAKbGFiZWw9U3lzdE1ldGthU086cGVvcGxlCnNvdXJjZT1zZW5kYmVybmFyCg==
+X-Yandex-Hint: Y29weV90b19pbmJveD0wCmVtYWlsPWtvemxvdl9hQGludGFyby5lbWFpbApmaWx0ZXJzPTAKaG9zdD1tYWlsLnlhbmRleC5ydQpsYWJlbD1zeW1ib2w6c2Vlbl9sYWJlbApsaWQ9MTYKbGlkPUZBS0VfUkVDRU5UX0xCTApsaWQ9RkFLRV9TRUVOX0xCTApub3RpZnk9MApyZWNlaXZlZF9kYXRlPTE1ODQzODM0OTUKc2F2ZV90b19zZW50PTEKc2tpcF9sb29wX3ByZXZlbnRpb249MQo=
+X-Yandex-Sender-Uid: 1130000026929660
+Received: by myt5-5e0e3f348369.qloud-c.yandex.net with HTTP;
+	Mon, 16 Mar 2020 21:31:35 +0300
+From: =?utf-8?B?0JDQu9C10LrRgdCw0L3QtNGAINCa0L7Qt9C70L7Qsg==?= <kozlov_a@intaro.email>
+To: "asdsafdfsdafgvhertghjkbu@intaro.email" <asdsafdfsdafgvhertghjkbu@intaro.email>
+Subject: test
+MIME-Version: 1.0
+X-Mailer: Yamail [ http://yandex.ru ] 5.0
+Date: Mon, 16 Mar 2020 21:31:35 +0300
+Message-Id: <473781584383484@iva5-64778ce1ba26.qloud-c.yandex.net>
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; charset=utf-8
+
+<div><br /></div><div><br /></div><div>-- </div><div>С уважением, </div><div>Александр Козлов</div><div><br /></div>
+
+--1263889750.1584383496/mxback8j.mail.yandex.net--

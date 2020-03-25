@@ -9,17 +9,17 @@ echo 'Provisioning Environment with Dovecot and Test Messages'
   else
 
     echo 'Updating apt-get repositories'
-    sudo apt-get -qq update
+    apt-get -qq update
 
 
     echo 'Installing Dovecot'
-    sudo apt-get -qq -y install dovecot-imapd dovecot-pop3d
-    sudo touch /etc/dovecot/local.conf
-    sudo echo 'mail_location = maildir:/home/%u/Maildir' >> /etc/dovecot/local.conf
-    sudo echo 'disable_plaintext_auth = no' >> /etc/dovecot/local.conf
-    sudo echo 'mail_max_userip_connections = 10000' >> /etc/dovecot/local.conf
-    sudo restart dovecot
-    echo 'Dovecot has been installed'
+    apt-get -qq -y install dovecot-imapd dovecot-pop3d
+    touch /etc/dovecot/local.conf
+    echo 'mail_location = maildir:/home/%u/Maildir' >> /etc/dovecot/local.conf
+    echo 'disable_plaintext_auth = no' >> /etc/dovecot/local.conf
+    echo 'mail_max_userip_connections = 10000' >> /etc/dovecot/local.conf
+    systemctl restart dovecot
+    'Dovecot has been installed'
   fi
 
 
@@ -29,8 +29,8 @@ echo 'Provisioning Environment with Dovecot and Test Messages'
     echo 'testuser already exists'
   else
     echo 'Creating User "testuser" with password "applesauce"'
-    sudo useradd testuser -m -s /bin/bash
-    echo "testuser:applesauce" | sudo chpasswd
+    useradd testuser -m -s /bin/bash
+    echo "testuser:applesauce" | chpasswd
     echo 'User created'
   fi
 
@@ -39,11 +39,11 @@ echo 'Provisioning Environment with Dovecot and Test Messages'
 
   echo 'Refreshing the test mailbox.'
 
-  sudo stop dovecot
-  [ -d "/home/testuser/Maildir" ] && sudo rm -R /home/testuser/Maildir
-  sudo cp -Rp /resources/Maildir /home/testuser/
-  sudo chown -R testuser:testuser /home/testuser/Maildir
-  sudo start dovecot
+  systemctl stop dovecot
+  [ -d "/home/testuser/Maildir" ] && rm -R /home/testuser/Maildir
+  cp -Rp /resources/Maildir /home/testuser/
+  chown -R testuser:testuser /home/testuser/Maildir
+  systemctl start dovecot
 
   echo 'Test mailbox restored'.
 

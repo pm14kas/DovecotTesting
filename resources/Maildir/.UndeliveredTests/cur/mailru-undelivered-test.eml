@@ -1,0 +1,95 @@
+Delivered-To: data@removed.com
+Return-path: <>
+Received: from mail by f505.i.mail.ru with local id 1jH8Af-0005PX-Ru
+	for data@removed.com; Wed, 25 Mar 2020 18:42:22 +0300
+X-Failed-Recipients: faulty@email.com
+X-Mailer-Daemon-Recipients: faulty@email.com
+Auto-Submitted: auto-replied
+From: mailer-daemon@corp.mail.ru
+To: data@removed.com
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=utf-8
+Subject: =?UTF-8?B?0JLQsNGI0LUg0YHQvtC+0LHRidC10L3QuNC1INC90LUg0LTQvtGB0YLQsNCy0LvQtdC90L4=?=. Mail failure.
+Message-Id: <E1jH8Af-0005PX-Ru@f505.i.mail.ru>
+Date: Wed, 25 Mar 2020 18:42:21 +0300
+X-7564579A: B8F34718100C35BD
+X-77F55803: 0A44E481635329DB4E7FAE048FD183FFD32E5E488652173699CE90E9CBBFB45F6373BAAB498B7680FBDBF69DD7E3F538140E2FD0F92A3821C4195546B7EB098660D804BDA5B88443E68B9EFFAF332798
+X-D57D3AED: Y8kq8+OzVozcFQziTi/Zi/+gcBwEVT7EG0g+gzS0PKeJDOBrL//rLYldd2avYxhfs9M+DuXTOBSH/SnnzuO3dUdTEydar/8efXUlVNrQsmwil0gALrGxJw==
+X-F696D7D5: gDVavpBnexBPV7fqdiSZTpLZh0UewvmFdZPNOPkLhDqFohDKcg89RbA9MtZNE1dTPRvz7bM6Wy0=
+X-Mras: PASS
+Authentication-Results: f505.i.mail.ru; auth=pass smtp.auth=mailer-daemon@corp.mail.ru smtp.mailfrom=mailer-daemon@corp.mail.ru; iprev=pass policy.iprev=127.0.0.1
+X-Mru-Trust-IP: 1
+X-Mailru-Intl-Transport: d,4f36b03
+
+Это письмо создано автоматически сервером Mail.ru, отвечать на него не нужно.
+
+К сожалению, Ваше письмо не может быть доставлено одному или нескольким получателям:
+
+  faulty@email.com
+    SMTP error from remote mail server after RCPT TO:<faulty@email.com>:
+    host inmx.rambler.ru [81.19.78.67]: 540 5.7.1 <faulty@email.com>:
+    recipient address rejected: Inactive
+
+Рекомендуем Вам проверить корректность указания адресов получателей.
+
+**********************
+
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  faulty@email.com
+    SMTP error from remote mail server after RCPT TO:<faulty@email.com>:
+    host inmx.rambler.ru [81.19.78.67]: 540 5.7.1 <faulty@email.com>:
+    recipient address rejected: Inactive
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <data@removed.com>
+Received: by f505.i.mail.ru with local (envelope-from <data@removed.com>)
+	id 1jH8Af-0005PA-Hi
+	for faulty@email.com; Wed, 25 Mar 2020 18:42:21 +0300
+Received: by e.mail.ru with HTTP;
+	Wed, 25 Mar 2020 18:42:21 +0300
+From: =?UTF-8?B?0JDQvdC00YDQtdC5INCS0L7Qu9C60L7Qsg==?= <data@removed.com>
+To: faulty@email.com
+Subject: =?UTF-8?B?dGVzdA==?=
+MIME-Version: 1.0
+X-Mailer: Mail.Ru Mailer 1.0
+X-Originating-IP: [109.172.46.70]
+Date: Wed, 25 Mar 2020 18:42:21 +0300
+Reply-To: =?UTF-8?B?0JDQvdC00YDQtdC5INCS0L7Qu9C60L7Qsg==?= <data@removed.com>
+X-Priority: 3 (Normal)
+Message-ID: <1585150941.379053789@f505.i.mail.ru>
+Content-Type: multipart/alternative;
+	boundary="--ALT--97e158Ae94569Bff9Fc9f2A5f1Dc105B1585150941"
+Authentication-Results: f505.i.mail.ru; auth=pass smtp.auth=data@removed.com smtp.mailfrom=data@removed.com
+X-7564579A: 646B95376F6C166E
+X-77F55803: 0A44E481635329DB4E7FAE048FD183FFD32E5E488652173699CE90E9CBBFB45FB58CA803145721B5FBDBF69DD7E3F538140E2FD0F92A3821C4195546B7EB098677713A7160DA5FC47013CB0BFE9BAA60
+X-7FA49CB5: 70AAF3C13DB7016878DA827A17800CE73212A5CD28B45ECCD82A6BABE6F325AC9EB98D58427B1C2ABCF491FFA38154B613377AFFFEAFD269176DF2183F8FC7C082A779A89F7D69B2C2099A533E45F2D0395957E7521B51C2CFCAF695D4D8E9FCEA1F7E6F0F101C6778DA827A17800CE7CEF52BA550D6CAADEA1F7E6F0F101C674E70A05D1297E1BBC6CDE5D1141D2B1CCA162BD72AFA35FB87FD6749A4D765B59749BEDD8BEFCC649FA2833FD35BB23D9E625A9149C048EE33AC447995A7AD186FD1C55BDD38FC3FD2E47CDBA5A96583BD4B6F7A4D31EC0BB23A54CFFDBC96A8389733CBF5DBD5E9D5E8D9A59859A8B636DA1BED736F9328CC7F00164DA146DA6F5DAA56C3B73B23E7DDDDC251EA7DABAAAE862A0553A392ACC50219273B5BD80CD372D361E8DF8D43847C11F186F3C5E7DDDDC251EA7DABCC89B49CDF41148F7A32D547D216D93C2623479134186CDE6BA297DBC24807EABDAD6C7F3747799A
+X-D57D3AED: Y8kq8+OzVozcFQziTi/Zi098oNK9gy3Irm5KFwLuDg60je4lC+GbTj0M8KbzpOmgsB7wYP6nnel8wfEHQiZAetlEg7qy07ISeqrIhHPnkjwRhrb8j3JrhQ==
+X-Mailru-Sender: FD65D7C492470CAEA31B3E9E0F3DEC994B2DF1E00BE8DE9B381028DC8A1219F4244B6249210E4BD293AD2E24B4317727BFEAC38730BAD0AB364DB3DF2F6C6378FC9576AD56505D30C6C148BD45E4029F800C2BD15D866C89EAB4BC95F72C04283CDA0F3B3F5B9367
+X-Mras: Ok
+X-Spam: undefined
+
+
+----ALT--97e158Ae94569Bff9Fc9f2A5f1Dc105B1585150941
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+CtCy0YvRgdGC0YPQv9C70LXQvdC40LUg0L7RgtC70LjRh9C90L7QtSwg0L7QsdGB0YPQttC00LDQ
+tdC8INCy0YHQtdC8INC+0YTQuNGB0L7QvArCoAotLQrQkNC90LTRgNC10Lkg0JLQvtC70LrQvtCy
+
+----ALT--97e158Ae94569Bff9Fc9f2A5f1Dc105B1585150941
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: base64
+
+CjxIVE1MPjxCT0RZPjxkaXY+0LLRi9GB0YLRg9C/0LvQtdC90LjQtSDQvtGC0LvQuNGH0L3QvtC1
+LCDQvtCx0YHRg9C20LTQsNC10Lwg0LLRgdC10Lwg0L7RhNC40YHQvtC8PC9kaXY+PGRpdj4mbmJz
+cDs8L2Rpdj48ZGl2IGRhdGEtc2lnbmF0dXJlLXdpZGdldD0iY29udGFpbmVyIj48ZGl2IGRhdGEt
+c2lnbmF0dXJlLXdpZGdldD0iY29udGVudCI+PGRpdj4tLTxicj7QkNC90LTRgNC10Lkg0JLQvtC7
+0LrQvtCyPC9kaXY+PC9kaXY+PC9kaXY+PC9CT0RZPjwvSFRNTD4K
+
+----ALT--97e158Ae94569Bff9Fc9f2A5f1Dc105B1585150941--

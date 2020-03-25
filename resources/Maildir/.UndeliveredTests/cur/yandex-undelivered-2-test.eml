@@ -1,0 +1,170 @@
+Received: from mxback9g.mail.yandex.net (localhost [127.0.0.1])
+	by mxback9g.mail.yandex.net with LMTP id fFqjUjJuAM-q4UsPQb1
+	for <kozlov_a@intaro.email>; Wed, 25 Mar 2020 22:11:11 +0300
+Received: from forward501o.mail.yandex.net (forward501o.mail.yandex.net [37.140.190.203])
+	by mxback9g.mail.yandex.net (mxback/Yandex) with ESMTP id oQ6Z7QsPfd-BAaO8iEM;
+	Wed, 25 Mar 2020 22:11:10 +0300
+X-Yandex-Front: mxback9g.mail.yandex.net
+X-Yandex-TimeMark: 1585163470.692
+X-Yandex-Suid-Status: 1 1130000044132221
+X-Yandex-Spam: 1
+Received: by forward501o.mail.yandex.net (Yandex)
+	id A08621E80962; Wed, 25 Mar 2020 22:11:10 +0300 (MSK)
+Date: Wed, 25 Mar 2020 22:11:10 +0300 (MSK)
+From: mailer-daemon@yandex.ru
+Subject: Undelivered Mail Returned to Sender
+To: kozlov_a@intaro.email
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="ED2CE1E80087.1585163470/forward501o.mail.yandex.net"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20200325191110.A08621E80962@forward501o.mail.yandex.net>
+X-Yandex-Forward: 7c052142e0e101ec78bc012e0d0f6b2e
+
+This is a MIME-encapsulated message.
+
+--ED2CE1E80087.1585163470/forward501o.mail.yandex.net
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host yandex.ru.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+You can find the the possible reasons of the undelivered message letter here:
+https://yandex.com/support/mail-new/wizard/zout_send/not-got-report-yes-other.html
+
+Please, do not reply to this message.
+
+
+<1211andreyvolkov070620012001@outlook.com>: host
+    outlook-com.olc.protection.outlook.com[104.47.44.33] said: 550 5.5.0
+    Requested action not taken: mailbox unavailable. (in reply to RCPT TO
+    command)
+
+--ED2CE1E80087.1585163470/forward501o.mail.yandex.net
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; forward501o.mail.yandex.net
+X-Yandex-Queue-ID: ED2CE1E80087
+X-Yandex-Sender: rfc822; kozlov_a@intaro.email
+Arrival-Date: Wed, 25 Mar 2020 22:11:08 +0300 (MSK)
+
+Final-Recipient: rfc822; 1211andreyvolkov070620012001@outlook.com
+Original-Recipient: rfc822;1211andreyvolkov070620012001@outlook.com
+Action: failed
+Status: 5.5.0
+Remote-MTA: dns; outlook-com.olc.protection.outlook.com
+Diagnostic-Code: smtp; 550 5.5.0 Requested action not taken: mailbox
+    unavailable.
+
+Help: Please visit https://yandex.ru/support/mail-new/wizard/zout_send/not-got-report-yes-other/no-such-user.html
+
+--ED2CE1E80087.1585163470/forward501o.mail.yandex.net
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <kozlov_a@intaro.email>
+Received: from mxback11q.mail.yandex.net (mxback11q.mail.yandex.net [IPv6:2a02:6b8:c0e:1b4:0:640:1f0c:10f2])
+	by forward501o.mail.yandex.net (Yandex) with ESMTP id ED2CE1E80087
+	for <1211andreyvolkov070620012001@outlook.com>; Wed, 25 Mar 2020 22:11:08 +0300 (MSK)
+Received: from localhost (localhost [::1])
+	by mxback11q.mail.yandex.net (mxback/Yandex) with ESMTP id h9ABKz2Inr-B8gmOAUs;
+	Wed, 25 Mar 2020 22:11:08 +0300
+Received: by vla1-b2d94eaf2344.qloud-c.yandex.net with HTTP;
+	Wed, 25 Mar 2020 22:11:08 +0300
+From: =?utf-8?B?0JDQu9C10LrRgdCw0L3QtNGAINCa0L7Qt9C70L7Qsg==?= <kozlov_a@intaro.email>
+To: 1211andreyvolkov070620012001@outlook.com
+In-Reply-To: <20200325174624.56F29B2034A@forward105j.mail.yandex.net>
+Subject: Fwd: Undelivered Mail Returned to Sender
+MIME-Version: 1.0
+X-Mailer: Yamail [ http://yandex.ru ] 5.0
+Date: Wed, 25 Mar 2020 22:11:08 +0300
+Message-Id: <22814681585163468@vla1-b2d94eaf2344.qloud-c.yandex.net>
+Content-Type: multipart/mixed;
+	boundary="----==--bound.2281469.vla1-b2d94eaf2344.qloud-c.yandex.net"
+
+
+------==--bound.2281469.vla1-b2d94eaf2344.qloud-c.yandex.net
+Content-Transfer-Encoding: base64
+Content-Type: text/html; charset=utf-8
+
+PGRpdj48YnIgLz48L2Rpdj48ZGl2PjxiciAvPjwvZGl2PjxkaXY+LS0tLS0tLS0g0J/QtdGA0LXR
+gdGL0LvQsNC10LzQvtC1INGB0L7QvtCx0YnQtdC90LjQtSAtLS0tLS0tLTwvZGl2PjxkaXY+MjUu
+MDMuMjAyMCwgMjA6NDYsICJtYWlsZXItZGFlbW9uQHlhbmRleC5ydSIgJmx0O21haWxlci1kYWVt
+b25AeWFuZGV4LnJ1Jmd0Ozo8L2Rpdj48ZGl2PjxiciAvPjwvZGl2PjxkaXYgY2xhc3M9IjQ5ZDMy
+MmZhMThmYmQxNmJiMjA2ZjYxZjlhMmE0MGY3bm9ybWFsaXplIj48cD5UaGlzIGlzIHRoZSBtYWls
+IHN5c3RlbSBhdCBob3N0IHlhbmRleC5ydS48YnIgLz48YnIgLz5JJ20gc29ycnkgdG8gaGF2ZSB0
+byBpbmZvcm0geW91IHRoYXQgeW91ciBtZXNzYWdlIGNvdWxkIG5vdDxiciAvPmJlIGRlbGl2ZXJl
+ZCB0byBvbmUgb3IgbW9yZSByZWNpcGllbnRzLiBJdCdzIGF0dGFjaGVkIGJlbG93LjxiciAvPjxi
+ciAvPllvdSBjYW4gZmluZCB0aGUgdGhlIHBvc3NpYmxlIHJlYXNvbnMgb2YgdGhlIHVuZGVsaXZl
+cmVkIG1lc3NhZ2UgbGV0dGVyIGhlcmU6PGJyIC8+PGEgaHJlZj0iaHR0cHM6Ly95YW5kZXguY29t
+L3N1cHBvcnQvbWFpbC1uZXcvd2l6YXJkL3pvdXRfc2VuZC9ub3QtZ290LXJlcG9ydC15ZXMtb3Ro
+ZXIuaHRtbCI+aHR0cHM6Ly95YW5kZXguY29tL3N1cHBvcnQvbWFpbC1uZXcvd2l6YXJkL3pvdXRf
+c2VuZC9ub3QtZ290LXJlcG9ydC15ZXMtb3RoZXIuaHRtbDwvYT48YnIgLz48YnIgLz5QbGVhc2Us
+IGRvIG5vdCByZXBseSB0byB0aGlzIG1lc3NhZ2UuPGJyIC8+PGJyIC8+PGJyIC8+Jmx0OzxhIGhy
+ZWY9Im1haWx0bzoxMjExYW5kcmV5dm9sa292MDcwNjIwMDEyMDAxcmFtYmxlcnJ1QG1haWwucnUi
+PjEyMTFhbmRyZXl2b2xrb3YwNzA2MjAwMTIwMDFyYW1ibGVycnVAbWFpbC5ydTwvYT4mZ3Q7OiBo
+b3N0PGJyIC8+wqDCoMKgwqBteHMubWFpbC5ydVs5NC4xMDAuMTgwLjMxXSBzYWlkOiA1NTAgTWVz
+c2FnZSB3YXMgbm90IGFjY2VwdGVkIC0tIGludmFsaWQ8YnIgLz7CoMKgwqDCoG1haWxib3guICBM
+b2NhbCBtYWlsYm94IDxhIGhyZWY9Im1haWx0bzoxMjExYW5kcmV5dm9sa292MDcwNjIwMDEyMDAx
+cmFtYmxlcnJ1QG1haWwucnUiPjEyMTFhbmRyZXl2b2xrb3YwNzA2MjAwMTIwMDFyYW1ibGVycnVA
+bWFpbC5ydTwvYT4gaXM8YnIgLz7CoMKgwqDCoHVuYXZhaWxhYmxlOiB1c2VyIG5vdCBmb3VuZCAo
+aW4gcmVwbHkgdG8gZW5kIG9mIERBVEEgY29tbWFuZCk8YnIgLz48L3A+LDxwPlJlcG9ydGluZy1N
+VEE6IGRuczsgZm9yd2FyZDEwNWoubWFpbC55YW5kZXgubmV0PGJyIC8+WC1ZYW5kZXgtUXVldWUt
+SUQ6IEE2RERCQjIwQzQ3PGJyIC8+WC1ZYW5kZXgtU2VuZGVyOiByZmM4MjI7IDxhIGhyZWY9Im1h
+aWx0bzprb3psb3ZfYUBpbnRhcm8uZW1haWwiPmtvemxvdl9hQGludGFyby5lbWFpbDwvYT48YnIg
+Lz5BcnJpdmFsLURhdGU6IFdlZCwgMjUgTWFyIDIwMjAgMjA6NDY6MjMgKzAzMDAgKE1TSyk8YnIg
+Lz48YnIgLz5GaW5hbC1SZWNpcGllbnQ6IHJmYzgyMjsgPGEgaHJlZj0ibWFpbHRvOjEyMTFhbmRy
+ZXl2b2xrb3YwNzA2MjAwMTIwMDFyYW1ibGVycnVAbWFpbC5ydSI+MTIxMWFuZHJleXZvbGtvdjA3
+MDYyMDAxMjAwMXJhbWJsZXJydUBtYWlsLnJ1PC9hPjxiciAvPk9yaWdpbmFsLVJlY2lwaWVudDog
+cmZjODIyOzxhIGhyZWY9Im1haWx0bzoxMjExYW5kcmV5dm9sa292MDcwNjIwMDEyMDAxcmFtYmxl
+cnJ1QG1haWwucnUiPjEyMTFhbmRyZXl2b2xrb3YwNzA2MjAwMTIwMDFyYW1ibGVycnVAbWFpbC5y
+dTwvYT48YnIgLz5BY3Rpb246IGZhaWxlZDxiciAvPlN0YXR1czogNS4wLjA8YnIgLz5SZW1vdGUt
+TVRBOiBkbnM7IG14cy5tYWlsLnJ1PGJyIC8+RGlhZ25vc3RpYy1Db2RlOiBzbXRwOyA1NTAgTWVz
+c2FnZSB3YXMgbm90IGFjY2VwdGVkIC0tIGludmFsaWQgbWFpbGJveC4gIExvY2FsPGJyIC8+wqDC
+oMKgwqBtYWlsYm94IDxhIGhyZWY9Im1haWx0bzoxMjExYW5kcmV5dm9sa292MDcwNjIwMDEyMDAx
+cmFtYmxlcnJ1QG1haWwucnUiPjEyMTFhbmRyZXl2b2xrb3YwNzA2MjAwMTIwMDFyYW1ibGVycnVA
+bWFpbC5ydTwvYT4gaXMgdW5hdmFpbGFibGU6IHVzZXI8YnIgLz7CoMKgwqDCoG5vdCBmb3VuZDxi
+ciAvPjxiciAvPkhlbHA6IFBsZWFzZSB2aXNpdCA8YSBocmVmPSJodHRwczovL3lhbmRleC5ydS9z
+dXBwb3J0L21haWwtbmV3L3dpemFyZC96b3V0X3NlbmQvbm90LWdvdC1yZXBvcnQteWVzLW90aGVy
+L25vLXN1Y2gtdXNlci5odG1sIj5odHRwczovL3lhbmRleC5ydS9zdXBwb3J0L21haWwtbmV3L3dp
+emFyZC96b3V0X3NlbmQvbm90LWdvdC1yZXBvcnQteWVzLW90aGVyL25vLXN1Y2gtdXNlci5odG1s
+PC9hPjxiciAvPjwvcD48L2Rpdj48ZGl2PjxiciAvPjwvZGl2PjxkaXY+LS0tLS0tLS0g0JrQvtC9
+0LXRhiDQv9C10YDQtdGB0YvQu9Cw0LXQvNC+0LPQviDRgdC+0L7QsdGJ0LXQvdC40Y8gLS0tLS0t
+LS08L2Rpdj48ZGl2PjxiciAvPjwvZGl2PjxkaXY+PGJyIC8+PC9kaXY+PGRpdj4tLcKgPC9kaXY+
+PGRpdj7QoSDRg9Cy0LDQttC10L3QuNC10LwswqA8L2Rpdj48ZGl2PtCQ0LvQtdC60YHQsNC90LTR
+gCDQmtC+0LfQu9C+0LI8L2Rpdj48ZGl2PjxiciAvPjwvZGl2Pg==
+------==--bound.2281469.vla1-b2d94eaf2344.qloud-c.yandex.net
+Content-Transfer-Encoding: 8bit
+Content-Type: message/rfc822
+
+Return-Path: <kozlov_a@intaro.email>
+Received: from mxback7g.mail.yandex.net (mxback7g.mail.yandex.net [IPv6:2a02:6b8:0:1472:2741:0:8b7:168])
+	by forward105j.mail.yandex.net (Yandex) with ESMTP id A6DDBB20C47
+	for <1211andreyvolkov070620012001ramblerru@mail.ru>; Wed, 25 Mar 2020 20:46:23 +0300 (MSK)
+Received: from localhost (localhost [::1])
+	by mxback7g.mail.yandex.net (mxback/Yandex) with ESMTP id 6wsSqhy4Ih-kNQGrUD7;
+	Wed, 25 Mar 2020 20:46:23 +0300
+Received: by iva4-6593cae50902.qloud-c.yandex.net with HTTP;
+	Wed, 25 Mar 2020 20:46:23 +0300
+From: =?utf-8?B?0JDQu9C10LrRgdCw0L3QtNGAINCa0L7Qt9C70L7Qsg==?= <kozlov_a@intaro.email>
+To: 1211andreyvolkov070620012001ramblerru@mail.ru
+Subject: test
+MIME-Version: 1.0
+X-Mailer: Yamail [ http://yandex.ru ] 5.0
+Date: Wed, 25 Mar 2020 20:46:23 +0300
+Message-Id: <16695211585158383@iva4-6593cae50902.qloud-c.yandex.net>
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; charset=utf-8
+
+<div>test</div><div> </div><div>-- </div><div>С уважением, </div><div>Александр Козлов</div><div> </div>
+
+------==--bound.2281469.vla1-b2d94eaf2344.qloud-c.yandex.net--
+
+--ED2CE1E80087.1585163470/forward501o.mail.yandex.net--

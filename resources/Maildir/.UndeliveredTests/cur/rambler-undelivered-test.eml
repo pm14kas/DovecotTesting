@@ -1,0 +1,119 @@
+Return-Path: <>
+Received: from mx2.mail.rambler.ru ([10.5.5.12] verified)
+  by mail624.rambler.ru (RamblerMail 6.1 SMTP 6.1a7)
+  with ESMTP id 56314324 for data@removed.com; Mon, 16 Mar 2020 22:15:40 +0300
+Received: from mxout3.rambler.ru (mxout3.rambler.ru [81.19.78.102])
+	by mx2.mail.rambler.ru (Postfix) with ESMTP id 1E85136802A6
+	for <data@removed.com>; Mon, 16 Mar 2020 22:15:40 +0300 (MSK)
+Received: from mxout3.rambler.ru (mxout3.rambler.ru [81.19.78.102])
+	by resmtp2.mail.rambler.ru (resmtp/Rambler) with ESMTP id Fe1GM7MB;
+	Mon, 16 Mar 2020 19:15:40 +0000
+Received: by mxout3.rambler.ru (Postfix)
+	id 0E7A27C024E; Mon, 16 Mar 2020 22:15:40 +0300 (MSK)
+Date: Mon, 16 Mar 2020 22:15:40 +0300 (MSK)
+From: MAILER-DAEMON@mxout3.rambler.ru (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender =?windows-1251?B?KM/o8fzs7iDt5SDs7ubl8iDh+/L8IOTu8fLg4us=?= =?windows-1251?B?5e3uIOgg4u7n4vDg+eXt7iDu8u/w4OLo8uXr/ik=?=
+To: data@removed.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="E66537C0248.1584386140/mxout3.rambler.ru"
+Message-Id: <20200316191540.0E7A27C024E@mxout3.rambler.ru>
+
+This is a MIME-encapsulated message.
+
+--E66537C0248.1584386140/mxout3.rambler.ru
+Content-Description: Notification
+Content-Type: text/plain; charset=windows-1251
+
+Извините, мы вынуждены информировать Вас, что письмо,
+которое Вы отправили, не может быть доставлено одному или
+нескольким адресатам. Оно находится в прикрепленном файле.
+
+Переводы и объяснения наиболее распространенных сообщений об
+ошибках можно посмотреть здесь:
+	http://help.rambler.ru/mail/mail-soobsheniya-ob-oshibkah/1326/	
+
+Данное сообщение создано автоматически почтовой системой.
+Отвечать на него не нужно.
+
+We are sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+This message was created automatically by mail system, don't reply.
+
+
+<faulty@email.com>: host mx.yandex.net[213.180.193.89]
+    said: 550 5.7.1 No such user! (in reply to RCPT TO command)
+
+--E66537C0248.1584386140/mxout3.rambler.ru
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mxout3.rambler.ru
+X-Postfix-Queue-ID: E66537C0248
+X-Postfix-Sender: rfc822; data@removed.com
+Arrival-Date: Mon, 16 Mar 2020 22:15:39 +0300 (MSK)
+
+Final-Recipient: rfc822; faulty@email.com
+Original-Recipient: rfc822;faulty@email.com
+Action: failed
+Status: 5.7.1
+Remote-MTA: dns; mx.yandex.net
+Diagnostic-Code: smtp; 550 5.7.1 No such user!
+
+--E66537C0248.1584386140/mxout3.rambler.ru
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <data@removed.com>
+Received: from saddam2.rambler.ru (saddam2.rambler.ru [10.32.16.2])
+	by mxout3.rambler.ru (Postfix) with ESMTP id E66537C0248
+	for <faulty@email.com>; Mon, 16 Mar 2020 22:15:39 +0300 (MSK)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=rambler.ru; s=mail;
+	t=1584386139; bh=v0ZcIbv5Ni+Ikitkzsh24wZTzf93vlxT5EGd/Eorqoc=;
+	h=From:To:Reply-To:Subject:Date;
+	b=aMPm9/IgjCjDYwAncXr/hGPrfRtCkukk2zPFqql29ACPSt0keZa3rfL6nrsC4XwFE
+	 kMyMgUWbkmjkP67HI4owjpEec1dlHZXN//A/9CIQbwoKFDbJdehSXR75y65AFmG5be
+	 bQnL1OjbmIJs46dfxUXmcrxd7wSH+YihVSsakLTk=
+Received: from localhost.localdomain (localhost [127.0.0.1])
+	by saddam2.rambler.ru (Postfix) with ESMTP id B9952C8F85D
+	for <faulty@email.com>; Mon, 16 Mar 2020 22:15:39 +0300 (MSK)
+Received: from [109.172.46.70] by mail.rambler.ru with HTTP; Mon, 16 Mar 2020 22:15:39 +0300
+From: =?koi8-r?B?4czFy9PBzsTSIOvP2szP1w==?= <data@removed.com>
+To: faulty@email.com
+Reply-To: =?koi8-r?B?4czFy9PBzsTSIOvP2szP1w==?= <data@removed.com>
+Subject: test22
+Date: Mon, 16 Mar 2020 22:15:39 +0300
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative; boundary="_----------=_15843861391062075"
+Message-Id: <1584386139.754480.10620.45126@mail.rambler.ru>
+MIME-Version: 1.0
+X-Mailer: Rambler WebMail, http://mail.rambler.ru/
+X-Rambler-User: data@removed.com/109.172.46.70
+X-Rambler-Spam: vrt_unknown
+X-Rambler-Referer: https://mail.rambler.ru/?utm_source=head&utm_campaign=self_promo&utm_medium=widget&utm_content=mail&utm_term=inbox
+
+
+This is a multi-part message in MIME format.
+
+--_----------=_15843861391062075
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"; format="flowed"
+
+=D0=A1 =D1=83=D0=B2=D0=B0=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5=D0=BC,
+
+
+--_----------=_15843861391062075
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<div><br></div><div><br></div><div><br></div><div>=D0=A1 =D1=83=D0=B2=D0=B0=
+=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5=D0=BC, <br></div><div><br><=
+/div>=
+
+--_----------=_15843861391062075--
+
+--E66537C0248.1584386140/mxout3.rambler.ru--
